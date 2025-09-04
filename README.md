@@ -1,5 +1,3 @@
-# AIChatBot_Groq_ASPNetCore
-
 # AI Chatbot Web Application
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -31,4 +29,26 @@
 ---
 
 ## Architecture
+- **Frontend**: Handles user input, renders streamed AI responses dynamically.  
+- **Controller**: Orchestrates requests to Groq API, manages streaming, saves chat history.  
+- **Database**: Stores chat history with roles, timestamps, and content for future analysis or personalization.
+
+---
+
+## Setup
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "GroqSettings": {
+    "apiKey": "YOUR_GROQ_API_KEY_HERE"
+  },
+  "ConnectionStrings": {
+    "sqlconstr": "YOUR_DATABASE_URL_HERE"
+  }
+}
 
