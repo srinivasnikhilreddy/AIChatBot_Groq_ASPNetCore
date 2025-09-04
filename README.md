@@ -29,6 +29,7 @@
 ---
 
 ## Architecture
+![Image](https://github.com/user-attachments/assets/a2f19a52-cefb-45cd-a208-2cf3a2c7d766)
 - **Frontend**: Handles user input, renders streamed AI responses dynamically.  
 - **Controller**: Orchestrates requests to Groq API, manages streaming, saves chat history.  
 - **Database**: Stores chat history with roles, timestamps, and content for future analysis or personalization.
