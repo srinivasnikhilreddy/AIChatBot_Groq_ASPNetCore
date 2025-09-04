@@ -1,1 +1,34 @@
 # AIChatBot_Groq_ASPNetCore
+
+# AI Chatbot Web Application
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+## Overview
+
+**AI Chatbot** is a real-time web application built with **ASP.NET Core**, **Entity Framework Core**, and the **Groq API (LLaMA 3.1-8B)**. The chatbot provides interactive AI-powered conversations, streaming responses token-by-token for an immersive experience. All chat history is stored in **SQL Server** for context-aware conversations.
+
+---
+
+## Features
+
+- **Real-Time Streaming AI Responses**  
+- **Persistent Chat History** with SQL Server  
+- **Markdown Support** for rich text formatting  
+- **Responsive Dark-Themed UI** using HTML, CSS, and JavaScript  
+- **Context-Aware Replies** using last 10 messages  
+
+---
+
+## Tech Stack
+
+- **Backend**: ASP.NET Core 7, C#  
+- **Database**: SQL Server, Entity Framework Core  
+- **Frontend**: Razor Pages, HTML, CSS, JavaScript  
+- **AI Integration**: Groq API (`llama-3.1-8b-instant`)  
+- **Markdown Rendering**: [marked.js](https://marked.js.org/)  
+
+---
+
+## Architecture
+
